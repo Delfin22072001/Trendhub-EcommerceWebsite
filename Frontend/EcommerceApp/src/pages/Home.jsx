@@ -46,32 +46,32 @@ export default function Home() {
             <div>
               <a href="#tredy-items" className='btn btn-outline-success text-uppercase'>view trendy collections</a>
             </div>
-            <div className='home-profiles mt-5'>
+            <div className='home-profiles mt-5 d-flex gap-1'>
               <img src={womenImage} alt="Women Image" />
-              <img className="mx-3" src={kidsImage} alt="Kids Image" />
+              <img className="" src={kidsImage} alt="Kids Image" />
               <img src={menImage} alt="Men Image" />
-              <img className="mx-3" src={watch} alt="Watch Image" />
+              <img className="" src={watch} alt="Watch Image" />
             </div>
           </div>
         </div>
       </section>
 
       <section className='bg-light'>
-        <div className='our-services container d-flex justify-content-around align-items-center py-3 gap-5'>
+        <div className='our-services container d-flex justify-content-center align-items-center py-3 gap-5'>
           <div className='text-center'>
-            <i className="fa-regular fa-truck mx-3"></i>
+            <i className="fa-solid fa-truck-fast mx-2"></i>
             <span>Free Shipping</span>
           </div>
           <div className='text-center'>
-            <i className="fa-solid fa-medal mx-3"></i>
+            <i className="fa-solid fa-award mx-2"></i>
             <span className='text-center'>Best Quality</span>
           </div>
           <div className='text-center'>
-            <i className="fa-solid fa-rotate-left mx-3"></i>
+            <i className="fa-solid fa-box-open mx-2"></i>
             <span>Easy Returns</span>
           </div>
           <div className='text-center'>
-            <i className="fa-regular fa-headphones mx-3"></i>
+            <i className="fa-solid fa-headset mx-2"></i>
             <span>24/7 support</span>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
       {/* choose by category */}
       <section>
         <div>
-          <h3 className="text-uppercase text-center fw-bold p-5 mt-3">shop by category</h3>
+          <h4 className="text-uppercase fw-bold text-center p-5 mt-3">shop by category</h4>
           <div className='d-flex flex-wrap justify-content-center align-items-center gap-3'>
             {category.map((product, index) => (
               <HomeCategory key={index} {...product} />
@@ -92,8 +92,8 @@ export default function Home() {
 
 
       <section id="tredy-items">
-        <h3 className="text-uppercase text-center fw-bold py-5 mt-5">our trendy collections</h3>
-        <div className='d-flex flex-wrap justify-content-center gap-3'>
+        <h4 className="text-uppercase fw-bold text-center py-5 mt-5">our trendy collections</h4>
+        <div className='d-flex flex-wrap justify-content-center gap-2'>
           {products.map((product) => (
             <div key={product.id}>
               <div className="product-card p-3">

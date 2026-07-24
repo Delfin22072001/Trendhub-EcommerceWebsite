@@ -46,11 +46,11 @@ function ProductDetail() {
 
   return (
     <div>
-      <section>
+      <section className="container">
         <div className="product-detail d-flex flex-wrap justify-content-center gap-5 my-5">
           <img src={`http://127.0.0.1:8000${product.image}`} alt={product.alt} />
 
-          <div className="px-2 mt-3">
+          <div>
             <span className="category">{category}</span>
             <h5 className="mt-3 fs-5">{product.name}</h5>
             <p className="paragraph text-secondary mb-3">{product.description}</p>

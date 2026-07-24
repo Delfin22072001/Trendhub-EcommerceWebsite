@@ -6,14 +6,14 @@ export default function Navbar() {
     <>
       <div>
         <header>
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3 px-3">
+          <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-2 px-3">
             <div className="container">
 
-              <h2 className="navbar-brand fs-4 text-uppercase fw-bold" href="index.html">Trend<span className='web-name'>Hub</span></h2>
+              <h2 className="navbar-brand fs-4 text-uppercase text-white fw-bold" href="index.html">Trend<span className='web-name'>Hub</span></h2>
 
               {/* Mobile Toggle */}
               <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon  text-white"></span>
               </button>
 
               {/* Desktop Navbar */}

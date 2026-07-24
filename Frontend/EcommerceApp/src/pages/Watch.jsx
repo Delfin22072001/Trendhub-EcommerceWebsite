@@ -29,7 +29,7 @@ export default function Watch() {
 
       <section id="watch">
         <h4 className="text-uppercase text-center fw-bold py-5 mt-5">Timeless Watch Collection</h4>
-        <div className='d-flex flex-wrap justify-content-center gap-3'>
+        <div className='d-flex flex-wrap justify-content-center gap-2'>
           {watchproduct.map((product) => (
             <div key={product.id}>
               <div className="product-card p-2">

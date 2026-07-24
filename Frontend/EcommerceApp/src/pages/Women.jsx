@@ -20,7 +20,7 @@ export default function Women() {
       <section>
         <div className='sub-hero container'>
           <img className="sub-hero-image" src={womenCollection} alt="Home Hero Image" />
-          <div className="contents mt-5 pt-5">
+          <div className="mt-5 pt-5">
             <h5 className="sub-heading text-uppercase">elevate your</h5>
             <h1 className='heading fw-bold text-uppercase'>everyday style</h1>
             <p className='paragraph mt-4'>Discover elegant dresses, trendy kurtis, and timeless fashion crafted for every occasion. Refresh your wardrobe with styles that blend comfort, confidence, and modern sophistication.</p>
@@ -31,7 +31,7 @@ export default function Women() {
 
       <section id="women">
         <h4 className="text-uppercase text-center fw-bold py-5 mt-5">Elegant Womens Collection</h4>
-        <div className='d-flex flex-wrap justify-content-center gap-3'>
+        <div className='d-flex flex-wrap justify-content-center gap-2'>
           {womenproduct.map((product) => (
             <div key={product.id}>
               <div className="product-card p-2">
